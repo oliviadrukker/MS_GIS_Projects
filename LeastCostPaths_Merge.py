@@ -1,4 +1,4 @@
-# todo: CAPSTONE TOOL - Merge LCP Polylines and Perform Statistics
+# todo: ARCPY TOOL - Merge LCP Polylines and Perform Statistics
 # Olivia Drukker
 
 # Preparation
@@ -6,7 +6,7 @@ import arcpy
 import os
 from arcpy import env
 
-# Get parameters
+# Get parameters for tool creation
 input_folder = arcpy.GetParameterAsText(0)  # Input folder containing LCP shapefiles
 output_feature_class = arcpy.GetParameterAsText(1)     # Output merged feature class
 
